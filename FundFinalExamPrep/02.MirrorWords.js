@@ -18,16 +18,15 @@ function solve(input) {
     match = pattern.exec(text);
   }
   if (count == 0) {
-      console.log('No word pairs found!');
-  }else{
-      console.log(`${count} word pairs found!`);
+    console.log("No word pairs found!");
+  } else {
+    console.log(`${count} word pairs found!`);
   }
   if (result.length == 0) {
-      console.log('No mirror words!');
-  }
-  else{
-      console.log('The mirror words are:');
-      console.log(result.join(', '));
+    console.log("No mirror words!");
+  } else {
+    console.log("The mirror words are:");
+    console.log(result.join(", "));
   }
 }
 solve([
