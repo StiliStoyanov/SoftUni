@@ -4,9 +4,7 @@ const { flowerShop } = require("./flowersShopSolution");
 describe("Test", () => {
   describe("calcPriceOfFlowers", () => {
     it("happy path", () => {
-      expect(flowerShop.calcPriceOfFlowers("Lily", 20, 2)).to.equal(
-        `You need $40.00 to buy Lily!`
-      );
+      expect(flowerShop.calcPriceOfFlowers("Lily", 20, 2)).to.equal(  `You need $40.00 to buy Lily!`);
     });
 
     it("invalid input", () => {
