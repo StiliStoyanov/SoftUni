@@ -2,7 +2,6 @@ import{html, render } from "./node_modules/lit-html/lit-html.js"
 
 document.getElementById('btnLoadTowns').addEventListener('click', (e)=>{
     e.preventDefault()
-    console.log('alabala');
     let input = document.querySelector('#towns').value
 
     let townList  = input.split(', ')
